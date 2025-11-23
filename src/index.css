@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fondo global */
+body {
+  background: linear-gradient(
+    135deg,
+    #e3f2ff 0%,
+    #ffd1f7 60%,
+    #8a77ff 100%
+  );
+  background-attachment: fixed;
+  color: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Suavizado de texto */
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar elegante */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8a77ff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
